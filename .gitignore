@@ -1,0 +1,82 @@
+# ========================
+# Node.js
+# ========================
+
+# Dependencias
+node_modules/
+
+# Archivos de entorno (credenciales, claves, etc.)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Archivos de lock (opcional ignorarlos si usas sólo uno)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Directorios de salida / compilación
+dist/
+build/
+out/
+tmp/
+temp/
+.cache/
+
+# Cobertura de pruebas
+coverage/
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Archivos de diagnósticos
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos del sistema / SO
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos temporales del editor
+*.swp
+*.bak
+*.tmp
+
+# TypeScript (si usas)
+*.tsbuildinfo
+
+# ESLint / Prettier (si generas cachés)
+.eslintcache
+.prettier-cache/
+
+# PM2 logs
+pids/
+logs/
+
+# Archivos de pruebas temporales
+test-output/
+
+# Otros posibles
+*.local
+*.tgz
+
+# Ignorar archivos secretos si los usas
+secrets.*

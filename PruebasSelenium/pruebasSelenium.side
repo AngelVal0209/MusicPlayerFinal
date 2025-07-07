@@ -1,0 +1,1123 @@
+{
+  "id": "2f9a7cff-aa40-41e0-8db1-d4c9fa85c5d0",
+  "version": "2.0",
+  "name": "pruebasSelenium",
+  "url": "https://localhost:7083",
+  "tests": [{
+    "id": "1fde3ccd-8294-4aa1-91fc-ff6db5fa8de7",
+    "name": "loginCorrecto",
+    "commands": [{
+      "id": "f4c5c4f0-9bba-4cba-9343-b72c1a89a3ef",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9f77b0f-ba5c-461b-a539-af7687b9d52e",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ab49aa7-dda8-41f2-8557-94ed7ec76a36",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "e0907817-959c-4f31-b176-e028487246d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c763f77e-3f97-4286-a6c7-1ae60a7039d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "296e1268-9c3b-4dab-97e3-d6f1fca666f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fc085d8-abc4-40ed-ab07-4dabba84ed24",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=mensajeBienvenida",
+      "targets": [],
+      "value": "Qué bueno volverte a ver."
+    }]
+  }, {
+    "id": "f2664aa9-b13a-426e-9f77-e6ca213c28a5",
+    "name": "loginIncorrecto",
+    "commands": [{
+      "id": "6e88e66e-4d74-4507-943b-d59fd4cfff07",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a00573c9-19f6-4283-9670-d6616482e638",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a70c002-ac8d-4b85-929d-b0f2db73de46",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "df4b7bf8-97dd-4f94-b66e-99b46d05088b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68331b09-c48c-4dc3-a1dc-3a011665f386",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test1235"
+    }, {
+      "id": "621ffe8f-ec63-4ee2-8413-b51c43903b16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4116ebff-66d4-42b4-9da4-d768935b8f5d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div.alert-danger",
+      "targets": [],
+      "value": "Correo o contraseña incorrectos."
+    }]
+  }, {
+    "id": "d53ebf1c-e5b1-4f29-bf49-a051ea26cd64",
+    "name": "crearPlaylist",
+    "commands": [{
+      "id": "fa737142-8b90-46fe-8c2b-540ff6f9803d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a378b25e-7fa6-42d4-b530-0a3613bb7734",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893e95ca-30de-4991-89b9-71a1ba4a09fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "c623bd95-4624-4732-b2d5-182440b49c7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0cdeaf8-e65a-4cd5-93b1-59b48191397f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "258a48d7-fa94-4bd6-8fd7-3d8b166adc98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09800aef-5f8f-42e3-948c-7190285cc87f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Playlist",
+      "targets": [
+        ["linkText=Crear Playlist", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Crear Playlist')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/CrearPlaylist')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Crear Playlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82ddc82b-cf20-4c47-ade3-b0a655295c52",
+      "comment": "",
+      "command": "click",
+      "target": "id=Nombre",
+      "targets": [
+        ["id=Nombre", "id"],
+        ["name=Nombre", "name"],
+        ["css=#Nombre", "css:finder"],
+        ["xpath=//input[@id='Nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bca0f1a-6734-44b4-9271-a07b06c500ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=Nombre",
+      "targets": [
+        ["id=Nombre", "id"],
+        ["name=Nombre", "name"],
+        ["css=#Nombre", "css:finder"],
+        ["xpath=//input[@id='Nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Musica"
+    }, {
+      "id": "60ea550c-f69a-4e77-9a25-6879feb10e37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Crear Playlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7efcae8-e3fc-4394-937a-9636cbb03524",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div.alert-success",
+      "targets": [],
+      "value": "¡Playlist creada exitosamente!"
+    }]
+  }, {
+    "id": "102a04e5-a2a3-457f-bd32-7c441fe484ff",
+    "name": "agregarCancionesPlaylist",
+    "commands": [{
+      "id": "ae262429-127a-4dae-998b-91aa19866027",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "109a245e-1bfb-4d95-979c-0452c2b137a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "529968a0-633e-4149-a5e1-5cdebf39a02d",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "19655040-d9e5-4e70-94af-305077bff169",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a903394-02ea-44e9-984c-6443c6bfb117",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "225dd799-5754-4269-95ae-0de43df8c515",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f774b3-1d77-49c4-82d7-acccec48ff85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Musica",
+      "targets": [
+        ["linkText=Musica", "linkText"],
+        ["css=.text-decoration-none", "css:finder"],
+        ["xpath=//a[contains(text(),'Musica')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/VerPlaylist/4')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Musica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c11130eb-2bea-4ebf-a913-d250693ee751",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Agregar Canción",
+      "targets": [
+        ["linkText=Agregar Canción", "linkText"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Agregar Canción')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/AgregarCancion?playlistId=4')]", "xpath:href"],
+        ["xpath=//main/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Agregar Canción')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "213e0d89-e1a8-4386-8075-193dc1caa708",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .btn",
+      "targets": [
+        ["css=tr:nth-child(1) .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da31bf06-90ba-4fee-8601-37a298e49d91",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//th[text()='Título']",
+      "targets": [],
+      "value": "Título"
+    }]
+  }, {
+    "id": "0a06db02-a480-4867-a550-d1b8ce5b40a3",
+    "name": "eliminarCanciones",
+    "commands": [{
+      "id": "4bec9f6e-ad49-4051-9822-c208e3c7b3d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2412cb6-9798-4953-b976-36afede99273",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f0925cc-924d-4cad-afb6-e73413659c77",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83fd7496-2f6a-4323-95e2-a6773dc84ec1",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "d661d783-0c57-4bc2-a2cb-6c596443b26c",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b4d9bad-9a0a-4b92-8705-a01c31dfbd66",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "3ef4c3f1-bb5e-4d92-bc36-8c58c407d0e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "971f5e12-ea00-48b7-9816-1e6405a9f9bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Musica",
+      "targets": [
+        ["linkText=Musica", "linkText"],
+        ["css=.text-decoration-none", "css:finder"],
+        ["xpath=//a[contains(text(),'Musica')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/VerPlaylist/4')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Musica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d7a3d0a-11f8-466a-97cb-837a1ea6b44c",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38977d45-2949-4f77-9c20-139b938813c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .btn",
+      "targets": [
+        ["css=tr:nth-child(1) .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "768a255f-5fb8-4e1d-a631-dfac54465f77",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee45d4bb-e9a4-476d-ba59-f72a9645857e",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6e978ec-ba93-4e12-a211-2abb92677184",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//p[text()='No hay canciones en esta playlist aún.']",
+      "targets": [],
+      "value": "No hay canciones en esta playlist aún."
+    }]
+  }, {
+    "id": "832d430c-15d0-4c03-80bb-d8bd674c4f2f",
+    "name": "eliminarPlaylist",
+    "commands": [{
+      "id": "fd56b196-79c6-4cba-b276-751273cc527f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08626c7d-c03d-47a8-a296-6a04fd53b482",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5c6a2a1-593c-4f92-bff9-a217444f809a",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "07793f8c-bca0-4f8e-b110-648878020e99",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac3dff3-9ad4-47ca-8826-e47e3fae067c",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "8f1c38f0-cbc2-4e33-ae49-8b43307e5501",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2b2928c-e873-41b9-bac9-1ef02ab3194e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Musica",
+      "targets": [
+        ["linkText=Musica", "linkText"],
+        ["css=.text-decoration-none", "css:finder"],
+        ["xpath=//a[contains(text(),'Musica')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/VerPlaylist/4')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Musica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95535e3c-91f4-4e0d-9f41-a1e8c710401b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Volver a Mis Playlists",
+      "targets": [
+        ["linkText=Volver a Mis Playlists", "linkText"],
+        ["css=.btn-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Volver a Mis Playlists')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/MisPlaylists')]", "xpath:href"],
+        ["xpath=//main/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Volver a Mis Playlists')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e17cc85-7374-47a3-ba78-e39dca830a2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b1c23a-16fa-4e9f-a5ad-4f19637373a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger:nth-child(1)",
+      "targets": [
+        ["css=.btn-danger:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='confirmDeleteModal']/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sí, eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5691a8bf-7953-4958-af04-44b63d1089ca",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div.alert-success",
+      "targets": [],
+      "value": "¡Playlist eliminada exitosamente!"
+    }]
+  }, {
+    "id": "11600262-82ab-408a-87df-8623af4b6a00",
+    "name": "modificarUsuario",
+    "commands": [{
+      "id": "85cba6bf-3fbd-4358-8518-755c6b0e4292",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a60c61c-d157-4516-9d32-527d846b90ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ff22fd8-732b-460d-8c27-665eb48a7e11",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "a13f8a13-3a1a-44a0-b80f-fe526ed102e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='/']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec78cc43-ed4e-4b9f-83ea-4935a3d4f519",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c301792-1b0c-4723-b248-928c9b228e95",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "1b0cd365-8943-4683-b459-f79e6519bece",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7498d35-bd7e-40c1-a37a-3f63012c205f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bienvenido, Test",
+      "targets": [
+        ["linkText=Bienvenido, Test", "linkText"],
+        ["css=.fw-bold", "css:finder"],
+        ["xpath=//a[contains(text(),'Bienvenido, Test')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Usuario/EditarPerfil')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bienvenido, Test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5ea5a15-ff75-4fc6-9129-9f52bfa0066d",
+      "comment": "",
+      "command": "click",
+      "target": "id=NombreUsuario",
+      "targets": [
+        ["id=NombreUsuario", "id"],
+        ["name=NombreUsuario", "name"],
+        ["css=#NombreUsuario", "css:finder"],
+        ["xpath=//input[@id='NombreUsuario']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a5842ec-89f2-4277-b051-9d07718c03fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=NombreUsuario",
+      "targets": [
+        ["id=NombreUsuario", "id"],
+        ["name=NombreUsuario", "name"],
+        ["css=#NombreUsuario", "css:finder"],
+        ["xpath=//input[@id='NombreUsuario']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testcambiado"
+    }, {
+      "id": "c7905e7a-a03d-4c47-be15-2250d3e38257",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da37db5b-aec6-472b-a22f-839c9e96c6af",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc83d0e-1453-416e-b3f8-bf5880c980c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test@tester.com"
+    }, {
+      "id": "2c20ff78-9b7d-424d-921c-9ab493c6ef8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fw-bold:nth-child(4)",
+      "targets": [
+        ["css=.fw-bold:nth-child(4)", "css:finder"],
+        ["xpath=//form/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Cambio de Contraseña (opcional)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55a91af6-f607-465a-a1a3-c72801f0eddd",
+      "comment": "",
+      "command": "click",
+      "target": "id=ViejaContrase_a",
+      "targets": [
+        ["id=ViejaContrase_a", "id"],
+        ["name=ViejaContraseña", "name"],
+        ["css=#ViejaContrase_a", "css:finder"],
+        ["xpath=//input[@id='ViejaContrase_a']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7821eaba-be21-4282-91ec-0510ca583b07",
+      "comment": "",
+      "command": "type",
+      "target": "id=ViejaContrase_a",
+      "targets": [
+        ["id=ViejaContrase_a", "id"],
+        ["name=ViejaContraseña", "name"],
+        ["css=#ViejaContrase_a", "css:finder"],
+        ["xpath=//input[@id='ViejaContrase_a']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "55c3a081-f63e-453e-a3f3-9f9d4737e344",
+      "comment": "",
+      "command": "click",
+      "target": "id=NuevaContrasena",
+      "targets": [
+        ["id=NuevaContrasena", "id"],
+        ["name=NuevaContrasena", "name"],
+        ["css=#NuevaContrasena", "css:finder"],
+        ["xpath=//input[@id='NuevaContrasena']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "272db20d-48c1-46a0-8ce1-69fdb8579363",
+      "comment": "",
+      "command": "type",
+      "target": "id=NuevaContrasena",
+      "targets": [
+        ["id=NuevaContrasena", "id"],
+        ["name=NuevaContrasena", "name"],
+        ["css=#NuevaContrasena", "css:finder"],
+        ["xpath=//input[@id='NuevaContrasena']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "tester"
+    }, {
+      "id": "52a421a8-f961-4d7b-bb9f-d7be994a8f28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn:nth-child(1)",
+      "targets": [
+        ["css=.text-center > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar Cambios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7daf4828-f754-4eb2-9ab7-b9ca857ce0ac",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div.alert-success",
+      "targets": [],
+      "value": "Se actualizó la información correctamente."
+    }]
+  }, {
+    "id": "c45daf9b-624a-425b-b084-5db56c62344e",
+    "name": "cambiarNombrePlaylist",
+    "commands": [{
+      "id": "09a6145b-1b98-4b27-87c4-3793d6ef922b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d114924-81fb-42a3-8e49-c15dee48d03a",
+      "comment": "",
+      "command": "click",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a7ec98-c2b7-481f-9e2f-e8fd0fc2587f",
+      "comment": "",
+      "command": "type",
+      "target": "id=CorreoElectronico",
+      "targets": [
+        ["id=CorreoElectronico", "id"],
+        ["name=CorreoElectronico", "name"],
+        ["css=#CorreoElectronico", "css:finder"],
+        ["xpath=//input[@id='CorreoElectronico']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "00e5e811-39f4-4c8a-a852-5754c933e10e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca6359c0-0f87-4e71-afc3-c435440208dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=Contrasena",
+      "targets": [
+        ["id=Contrasena", "id"],
+        ["name=Contrasena", "name"],
+        ["css=#Contrasena", "css:finder"],
+        ["xpath=//input[@id='Contrasena']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "c377e17b-548c-4f91-a9d1-721e1f248256",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78b18d8a-3525-4927-8c40-8936dcc2ad95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Musica",
+      "targets": [
+        ["linkText=Musica", "linkText"],
+        ["css=.text-decoration-none", "css:finder"],
+        ["xpath=//a[contains(text(),'Musica')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/VerPlaylist/6')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Musica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d90bda-17d1-4543-a0d6-665f0ab567d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Volver a Mis Playlists",
+      "targets": [
+        ["linkText=Volver a Mis Playlists", "linkText"],
+        ["css=.btn-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Volver a Mis Playlists')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/MisPlaylists')]", "xpath:href"],
+        ["xpath=//main/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Volver a Mis Playlists')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a7b17d-dbf0-4bb2-a50e-9674bd1feef9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Editar",
+      "targets": [
+        ["linkText=Editar", "linkText"],
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=//a[contains(text(),'Editar')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Playlist/EditarPlaylist/6')]", "xpath:href"],
+        ["xpath=//td[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b428d06-2b20-4a5d-832c-1d2c996775d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Nombre",
+      "targets": [
+        ["id=Nombre", "id"],
+        ["name=Nombre", "name"],
+        ["css=#Nombre", "css:finder"],
+        ["xpath=//input[@id='Nombre']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66ffbf51-8fbc-4fbf-bff8-7bcb136e17b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=Nombre",
+      "targets": [
+        ["id=Nombre", "id"],
+        ["name=Nombre", "name"],
+        ["css=#Nombre", "css:finder"],
+        ["xpath=//input[@id='Nombre']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Musica Editada"
+    }, {
+      "id": "462f71d6-f23e-4da5-8849-90aaf1090fbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar Cambios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e55738aa-72bc-4916-bf98-725a062d4784",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div.alert-success",
+      "targets": [],
+      "value": "¡Playlist actualizada exitosamente!"
+    }]
+  }],
+  "suites": [{
+    "id": "2d207244-ee17-4a18-b434-23370546fcd7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost:7083/"],
+  "plugins": []
+}
