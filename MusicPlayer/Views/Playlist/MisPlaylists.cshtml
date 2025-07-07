@@ -1,0 +1,224 @@
+﻿@model IEnumerable<MusicPlayer.Models.Playlist>
+
+@{
+    ViewData["Title"] = "Mis Playlists";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #fff5cc 0%, #fac44c 100%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #4a4a4a;
+        padding: 20px;
+        min-height: 100vh;
+    }
+
+    h2 {
+        color: #a36c00;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 3px rgba(163, 108, 0, 0.4);
+    }
+
+    .alert-success {
+        max-width: 600px;
+        margin: 0 auto 20px;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+        color: #155724;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(172, 237, 191, 0.4);
+        font-weight: 600;
+        text-align: center;
+    }
+
+    table.table {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff5cc;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(250, 196, 76, 0.3);
+        overflow: hidden;
+    }
+
+    table thead {
+        background-color: #fac44c;
+        color: #4a4a4a;
+        font-weight: 700;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    table th, table td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #f5e0a1;
+    }
+
+    table tbody tr:hover {
+        background-color: #fceebd;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-info, .btn-warning, .btn-danger {
+        border-radius: 50px;
+        padding: 5px 12px;
+        font-weight: 600;
+        font-size: 0.85rem;
+        transition: background-color 0.3s ease;
+        margin-right: 5px;
+    }
+
+    .btn-info {
+        background-color: #5bc0de;
+        border: none;
+        color: white;
+    }
+
+        .btn-info:hover {
+            background-color: #31b0d5;
+            color: white;
+        }
+
+    .btn-warning {
+        background-color: #f0ad4e;
+        border: none;
+        color: white;
+    }
+
+        .btn-warning:hover {
+            background-color: #ec971f;
+            color: white;
+        }
+
+    .btn-danger {
+        background-color: #d9534f;
+        border: none;
+        color: white;
+    }
+
+        .btn-danger:hover {
+            background-color: #c9302c;
+            color: white;
+        }
+
+    /* Modal styles override to match theme */
+    .modal-content {
+        background: #fff5cc;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(250, 196, 76, 0.3);
+        color: #4a4a4a;
+        font-weight: 600;
+    }
+
+    .modal-header {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .modal-title {
+        color: #a36c00;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .btn-close {
+        filter: invert(35%) sepia(83%) saturate(1593%) hue-rotate(354deg) brightness(100%) contrast(97%);
+    }
+
+    .modal-body p {
+        font-size: 1.1rem;
+        margin: 15px 0;
+    }
+
+    .modal-footer {
+        border-top: none;
+        padding-top: 0;
+        justify-content: center;
+    }
+
+        .modal-footer .btn-danger {
+            width: 120px;
+        }
+
+        .modal-footer .btn-secondary {
+            width: 120px;
+        }
+</style>
+
+<h2>Mis Playlists</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Fecha Creación</th>
+            <th>Canciones</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var playlist in Model)
+        {
+            <tr>
+                <td>@playlist.Nombre</td>
+                <td>@playlist.FechaCreacion.ToShortDateString()</td>
+                <td>@(playlist.PlaylistCanciones?.Count ?? 0)</td>
+                <td>
+                    <a asp-action="VerPlaylist" asp-route-id="@playlist.PlaylistID" class="btn btn-info btn-sm">Ver</a>
+                    <a asp-action="EditarPlaylist" asp-route-id="@playlist.PlaylistID" class="btn btn-warning btn-sm">Editar</a>
+                    <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal" data-playlistid="@playlist.PlaylistID" data-playlistname="@playlist.Nombre">Eliminar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal de confirmación -->
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="confirmDeleteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="EliminarPlaylist" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmDeleteLabel">Confirmar Eliminación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Estás seguro que deseas eliminar la playlist <strong id="playlistName"></strong>?</p>
+                    <input type="hidden" id="playlistId" name="id" value="" />
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var confirmDeleteModal = document.getElementById('confirmDeleteModal');
+        confirmDeleteModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget;
+            var playlistId = button.getAttribute('data-playlistid');
+            var playlistName = button.getAttribute('data-playlistname');
+
+            var modalPlaylistName = confirmDeleteModal.querySelector('#playlistName');
+            var modalPlaylistId = confirmDeleteModal.querySelector('#playlistId');
+
+            modalPlaylistName.textContent = playlistName;
+            modalPlaylistId.value = playlistId;
+        });
+    </script>
+}

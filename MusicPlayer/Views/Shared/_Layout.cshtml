@@ -1,0 +1,307 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MusicPlayer</title>
+
+   
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+   
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MusicPlayer.styles.css" asp-append-version="true" />
+
+    <style>
+
+        .layout-root,
+        .layout-root
+        .layout-root {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background: #fafafa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+            .layout-root .sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                width: 320px;
+                background-color: #fff;
+                border-right: 3px solid #d35400;
+                padding: 2rem 1.5rem;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                overflow-y: auto;
+                z-index: 1000;
+            }
+
+            .layout-root .logo-img {
+                max-width: 140px;
+                margin-bottom: 2rem;
+                cursor: pointer;
+                filter: drop-shadow(0 0 1px rgba(0,0,0,0.15));
+            }
+
+            .layout-root .sidebar nav {
+                width: 100%;
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+                .layout-root .sidebar nav a.nav-link {
+                    width: 100%;
+                    color: #3e3e3e;
+                    font-weight: 600;
+                    padding: 12px 15px;
+                    border-radius: 6px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    background-color: #fff;
+                    border: 2px solid transparent;
+                    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+                }
+
+                    .layout-root .sidebar nav a.nav-link:hover,
+                    .layout-root .sidebar nav a.nav-link:focus {
+                        background-color: #d35400;
+                        color: #fff;
+                        border-color: #d35400;
+                        text-decoration: none;
+                    }
+
+            .layout-root .user-playlists {
+                margin-top: 1rem;
+                width: 100%; /* o un width fijo tipo 280px si quieres fijo */
+                max-height: 350px; /* límite para que no se alargue mucho */
+                overflow-y: auto; /* scroll si hay muchas playlists */
+                padding: 0 10px;
+                box-sizing: border-box;
+                background-color: #fff8f2;
+                border: 1.5px solid #d35400;
+                border-radius: 8px;
+                box-shadow: 0 3px 6px rgba(211, 84, 0, 0.3);
+            }
+
+                .layout-root .user-playlists h6 {
+                    font-weight: 700;
+                    color: #d35400;
+                    margin-bottom: 1rem;
+                    text-align: center;
+                    user-select: none;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    font-size: 1.1rem;
+                    padding-top: 10px;
+                }
+
+                .layout-root .user-playlists ul.playlist-list {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                }
+
+                    .layout-root .user-playlists ul.playlist-list li.playlist-item {
+                        padding: 8px 12px;
+                        border-bottom: 1px solid #f0b78a;
+                        font-weight: 600;
+                        color: #3e3e3e;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+                        user-select: none;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis; /* para texto largo se corta con puntos */
+                    }
+
+                        .layout-root .user-playlists ul.playlist-list li.playlist-item:last-child {
+                            border-bottom: none;
+                        }
+
+                        .layout-root .user-playlists ul.playlist-list li.playlist-item:hover,
+                        .layout-root .user-playlists ul.playlist-list li.playlist-item:focus {
+                            background-color: #fce4d6;
+                            color: #b03a00;
+                            transform: translateX(5px);
+                            outline: none;
+                            text-decoration: none;
+                        }
+
+
+            .layout-root .sidebar .user-info {
+                margin-top: auto;
+                width: 100%;
+                text-align: center;
+            }
+
+                .layout-root .sidebar .user-info a {
+                    display: block;
+                    color: #d35400;
+                    font-weight: 700;
+                    padding: 10px 0;
+                    border-radius: 6px;
+                    transition: background-color 0.25s ease;
+                    text-decoration: none;
+                    user-select: none;
+                }
+
+                    .layout-root .sidebar .user-info a:hover,
+                    .layout-root .sidebar .user-info a:focus {
+                        background-color: #f0b78a;
+                        color: #fff;
+                    }
+
+                    .layout-root .sidebar .user-info a.text-danger {
+                        color: #b03a00;
+                    }
+
+                        .layout-root .sidebar .user-info a.text-danger:hover,
+                        .layout-root .sidebar .user-info a.text-danger:focus {
+                            background-color: #b03a00;
+                            color: #fff;
+                        }
+
+            .layout-root .main-content {
+                margin-left: 320px;
+                padding: 2rem;
+                min-height: 100vh;
+                background-color: #fcfaf7;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-sizing: border-box;
+            }
+
+            .layout-root main[role="main"] {
+                width: 100%;
+                max-width: 900px;
+                background: #fff;
+                padding: 2rem 3rem;
+                border-radius: 12px;
+                box-shadow: 0 0 15px rgba(0,0,0,0.08);
+                min-height: 70vh;
+            }
+
+            .layout-root footer.footer {
+                width: 100%;
+                max-width: 900px;
+                text-align: center;
+                margin-top: 2rem;
+                padding-top: 1rem;
+                border-top: 1px solid #d35400;
+                color: #666;
+                font-size: 0.9rem;
+                user-select: none;
+            }
+
+            .layout-root #sugerencias {
+                max-height: 200px;
+                overflow-y: auto;
+                border: 1px solid #d35400;
+                border-top: none;
+                background: #fff;
+                border-radius: 0 0 6px 6px;
+                box-shadow: 0 3px 8px rgba(211, 84, 0, 0.3);
+                z-index: 1200;
+                position: absolute;
+                width: 100%;
+            }
+
+                .layout-root #sugerencias a {
+                    color: #3e3e3e;
+                }
+
+                    .layout-root #sugerencias a:hover,
+                    .layout-root #sugerencias a:focus {
+                        background-color: #d35400;
+                        color: white;
+                        text-decoration: none;
+                    }
+
+            .layout-root .sidebar .btn-primary {
+                background-color: #d35400;
+                border-color: #d35400;
+                width: 100%;
+                margin-bottom: 1.5rem;
+                font-weight: 700;
+                transition: background-color 0.3s ease, border-color 0.3s ease;
+            }
+
+                .layout-root .sidebar .btn-primary:hover,
+                .layout-root .sidebar .btn-primary:focus {
+                    background-color: #b03a00;
+                    border-color: #b03a00;
+                }
+    </style>
+</head>
+
+<body>
+    <div class="layout-root">
+        <!-- Sidebar vertical -->
+        <div class="sidebar">
+            <!-- Logo clickeable -->
+            <a asp-area="" asp-controller="PlaylistAleatoria" asp-action="Inicio">
+                <img src="~/lib/Logo.png" alt="Logo MusicPlayer" class="logo-img" />
+            </a>
+
+            <!-- Navegación -->
+            <nav>
+                <!-- Buscador con botón -->
+                <div class="px-3 mb-3 w-100">
+                    <a href="@Url.Action("Buscar", "Cancion")" class="btn btn-primary">
+                        Buscar canciones
+                    </a>
+                </div>
+
+                <a class="nav-link" asp-area="" asp-controller="PlaylistAleatoria" asp-action="Inicio">Inicio</a>
+                <a class="nav-link" asp-area="" asp-controller="Playlist" asp-action="MisPlaylists">Mis Playlists</a>
+                <a class="nav-link" asp-controller="Playlist" asp-action="CrearPlaylist">Crear Playlist</a>
+
+                <div class="user-playlists">
+                    <h6>Mis Playlists</h6>
+                    @* 
+                      
+                    *@
+                    @await Component.InvokeAsync("UserPlaylists")
+                </div>
+
+                <div class="user-info">
+                    @if (User.Identity?.IsAuthenticated ?? false)
+                    {
+                        var nombreUsuario = User.Claims
+                        .FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Name)?.Value ?? "Usuario";
+
+                        <a asp-controller="Usuario" asp-action="EditarPerfil" class="fw-bold">
+                            Bienvenido, @nombreUsuario
+                        </a>
+                    }
+
+                    <a class="text-danger" asp-controller="Home" asp-action="Salir">Salir</a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="main-content">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

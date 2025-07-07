@@ -1,0 +1,172 @@
+﻿@model List<MusicPlayer.ViewM.PlaylistAleatoriaVM>
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Descubre - Inicio";
+}
+<div class="text-center">
+    @if (User.Identity!.IsAuthenticated)
+    {
+        <h1 class="display-6">
+            Bienvenido de nuevo
+            @User.Claims.Where(c => c.Type == ClaimTypes.Name).Select(c => c.Value).SingleOrDefault()
+        </h1>
+    }
+</div>
+
+<style>
+    body {
+        background-color: #fff;
+        color: #222;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px;
+    }
+
+    .titulo-principal {
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #111;
+        text-align: center;
+    }
+
+    .playlist-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .playlist-card {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: auto 1fr;
+        gap: 12px 15px;
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        color: #222;
+        text-decoration: none;
+        transition: box-shadow 0.3s ease, transform 0.2s ease;
+        width: 90%;
+        max-width: 600px;
+        height: auto;
+        overflow: hidden;
+    }
+
+        .playlist-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+            transform: translateY(-4px);
+        }
+
+    .playlist-img-wrapper {
+        grid-row: 1 / span 2;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #000;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #eee;
+    }
+
+    .playlist-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .playlist-details {
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .playlist-details h4 {
+            margin: 0 0 6px 0;
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: #000;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .playlist-details small {
+            color: #555;
+            font-size: 0.85rem;
+        }
+
+    .playlist-songs {
+        grid-column: 2;
+        grid-row: 2;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        overflow-y: auto;
+        max-height: 100px;
+    }
+
+        .playlist-songs li {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #333;
+        }
+
+            .playlist-songs li.mas-canciones {
+                font-style: italic;
+                color: #000;
+                cursor: default;
+            }
+
+        .playlist-songs::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .playlist-songs::-webkit-scrollbar-thumb {
+            background-color: rgba(0,0,0,0.2);
+            border-radius: 3px;
+        }
+
+        .playlist-songs::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+</style>
+
+<p id="mensajeBienvenida" style="text-align: center;">Qué bueno volverte a ver.</p>
+
+<h2 class="titulo-principal">Recomendaciones para ti</h2>
+
+<div class="playlist-container">
+    @foreach (var playlist in Model)
+    {
+        <a href="@Url.Action("Detalle", "PlaylistAleatoria", new { id = playlist.PlaylistID })" class="playlist-card">
+            <div class="playlist-img-wrapper">
+                <img src="https://source.unsplash.com/collection/899422/150x150?sig=@playlist.PlaylistID" alt="Imagen de playlist" class="playlist-img" />
+            </div>
+            <div class="playlist-details">
+                <h4 title="@playlist.Nombre">@playlist.Nombre</h4>
+                <small>Creada: @playlist.FechaCreacion.ToString("dd MMM yyyy")</small>
+            </div>
+            <ul class="playlist-songs">
+                @foreach (var cancion in playlist.Canciones.Take(3))
+                {
+                    <li title="@cancion.Titulo - @cancion.Artista">@cancion.Titulo - @cancion.Artista</li>
+                }
+                @if (playlist.Canciones.Count > 3)
+                {
+                    <li class="mas-canciones">+ @((playlist.Canciones.Count) - 3) más...</li>
+                }
+            </ul>
+        </a>
+    }
+</div>

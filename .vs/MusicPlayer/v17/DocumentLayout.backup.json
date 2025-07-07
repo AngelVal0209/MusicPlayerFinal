@@ -1,0 +1,663 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlist\\editarplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlist\\editarplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\login\\recuperarcontrase\u00F1a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\login\\recuperarcontrase\u00F1a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlist\\misplaylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlist\\misplaylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlist\\verplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlist\\verplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlist\\seleccionarplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlist\\seleccionarplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\controllers\\cancioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\controllers\\cancioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\usuario\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\usuario\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\login\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\login\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlist\\crearplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlist\\crearplaylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\viewm\\agregarcancionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\viewm\\agregarcancionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlistaleatoria\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlistaleatoria\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlist\\agregarcancion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlist\\agregarcancion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\migrations\\20250625043020_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\migrations\\20250625043020_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\playlistaleatoria\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\playlistaleatoria\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\cancion\\buscar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\cancion\\buscar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\models\\playlistaleatoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\playlistaleatoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\models\\historialreproduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\historialreproduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\models\\favorito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\favorito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\viewm\\recuperarcontrase\u00F1auvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\viewm\\recuperarcontrase\u00F1auvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\viewm\\loginuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\viewm\\loginuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\shared\\components\\userplaylists\\empty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\shared\\components\\userplaylists\\empty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|c:\\users\\angel\\desktop\\musicplayer-main\\musicplayer\\views\\shared\\components\\userplaylists\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FDAA6ED-6666-4084-9CB8-303E3D286DD2}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\shared\\components\\userplaylists\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 283,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlaylistController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\PlaylistController.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Controllers\\PlaylistController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\PlaylistController.cs",
+              "RelativeToolTip": "MusicPlayer\\Controllers\\PlaylistController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwHkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:54:04.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VerPlaylist.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\VerPlaylist.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Playlist\\VerPlaylist.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\VerPlaylist.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Playlist\\VerPlaylist.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAiwIUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:49:15.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeleccionarPlaylist.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\SeleccionarPlaylist.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Playlist\\SeleccionarPlaylist.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\SeleccionarPlaylist.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Playlist\\SeleccionarPlaylist.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAiwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:48:07.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAqwA8BAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:14:39.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:41:16.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecuperarContrase\u00F1a.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Login\\RecuperarContrase\u00F1a.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Login\\RecuperarContrase\u00F1a.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Login\\RecuperarContrase\u00F1a.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Login\\RecuperarContrase\u00F1a.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:13:31.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditarPlaylist.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\EditarPlaylist.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Playlist\\EditarPlaylist.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\EditarPlaylist.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Playlist\\EditarPlaylist.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAiwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:46:19.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MisPlaylists.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\MisPlaylists.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Playlist\\MisPlaylists.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\MisPlaylists.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Playlist\\MisPlaylists.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:46:50.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MusicPlayer\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:24:04.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CancionController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\CancionController.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Controllers\\CancionController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\CancionController.cs",
+              "RelativeToolTip": "MusicPlayer\\Controllers\\CancionController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:28:55.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditarPerfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Usuario\\EditarPerfil.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Usuario\\EditarPerfil.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Usuario\\EditarPerfil.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Usuario\\EditarPerfil.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:14:34.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "MusicPlayer\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:26:37.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CrearPlaylist.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\CrearPlaylist.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Playlist\\CrearPlaylist.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\CrearPlaylist.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Playlist\\CrearPlaylist.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:44:56.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Login\\Registro.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Login\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Login\\Registro.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Login\\Registro.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:11:50.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AgregarCancion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\AgregarCancion.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Playlist\\AgregarCancion.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Playlist\\AgregarCancion.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Playlist\\AgregarCancion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:44:30.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\PlaylistAleatoria\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\PlaylistAleatoria\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\PlaylistAleatoria\\Detalle.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\PlaylistAleatoria\\Detalle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:49:43.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MusicPlayer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:28:56.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AgregarCancionVM.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\ViewM\\AgregarCancionVM.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\ViewM\\AgregarCancionVM.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\ViewM\\AgregarCancionVM.cs",
+              "RelativeToolTip": "MusicPlayer\\ViewM\\AgregarCancionVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:33:17.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\PlaylistAleatoria\\Inicio.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\PlaylistAleatoria\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\PlaylistAleatoria\\Inicio.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\PlaylistAleatoria\\Inicio.cshtml",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAwwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:51:06.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\appsettings.json",
+              "RelativeDocumentMoniker": "MusicPlayer\\appsettings.json",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\appsettings.json",
+              "RelativeToolTip": "MusicPlayer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T04:30:22.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Buscar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Cancion\\Buscar.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Cancion\\Buscar.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Cancion\\Buscar.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Cancion\\Buscar.cshtml",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAiwOQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:41:48.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250625043020_FINAL.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Migrations\\20250625043020_FINAL.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Migrations\\20250625043020_FINAL.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Migrations\\20250625043020_FINAL.cs",
+              "RelativeToolTip": "MusicPlayer\\Migrations\\20250625043020_FINAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T04:30:21.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "MusicPlayer\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T20:55:54.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Program.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Program.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Program.cs",
+              "RelativeToolTip": "MusicPlayer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:57:28.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cancion.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Cancion.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\Cancion.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Cancion.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\Cancion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:57:52.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:57:53.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Favorito.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Favorito.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\Favorito.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Favorito.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\Favorito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:57:54.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HistorialReproduccion.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\HistorialReproduccion.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\HistorialReproduccion.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\HistorialReproduccion.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\HistorialReproduccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:58:00.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Playlist.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\Playlist.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Playlist.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\Playlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:58:01.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PlaylistAleatoria.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\PlaylistAleatoria.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\PlaylistAleatoria.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\PlaylistAleatoria.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\PlaylistAleatoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:58:04.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RecuperarContrase\u00F1aUVM.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\ViewM\\RecuperarContrase\u00F1aUVM.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\ViewM\\RecuperarContrase\u00F1aUVM.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\ViewM\\RecuperarContrase\u00F1aUVM.cs",
+              "RelativeToolTip": "MusicPlayer\\ViewM\\RecuperarContrase\u00F1aUVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:23:57.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginUVM.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\ViewM\\LoginUVM.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\ViewM\\LoginUVM.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\ViewM\\LoginUVM.cs",
+              "RelativeToolTip": "MusicPlayer\\ViewM\\LoginUVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:23:51.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Models\\Usuario.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:24:30.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T08:46:48.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "MusicPlayer\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:25:45.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:41:28.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:41:26.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Empty.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Empty.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Empty.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Empty.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Empty.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:27:11.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Default.cshtml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\MusicPlayer-main\\MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Default.cshtml",
+              "RelativeToolTip": "MusicPlayer\\Views\\Shared\\Components\\UserPlaylists\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:26:45.185Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+﻿@model MusicPlayer.ViewM.SeleccionarPlaylistVM
+
+<style>
+    body {
+        background: linear-gradient(135deg, #fff5cc 0%, #fac44c 100%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #4a4a4a;
+        padding: 30px 20px;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    h2 {
+        color: #a36c00;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-bottom: 25px;
+        text-shadow: 1px 1px 3px rgba(163, 108, 0, 0.4);
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    form {
+        background: #fff5cc;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(250, 196, 76, 0.3);
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 6px;
+        color: #7a5600;
+    }
+
+    select {
+        padding: 10px 12px;
+        border-radius: 8px;
+        border: 2px solid #fac44c;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #4a4a4a;
+        background: white;
+        transition: border-color 0.3s ease;
+    }
+
+        select:focus {
+            outline: none;
+            border-color: #a36c00;
+            box-shadow: 0 0 6px #a36c00aa;
+        }
+
+    button {
+        background-color: #a36c00;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-weight: 700;
+        font-size: 1rem;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        user-select: none;
+    }
+
+        button:hover {
+            background-color: #7a5600;
+        }
+</style>
+
+<h2>Agregar canción a una playlist</h2>
+
+<form asp-action="AgregarCancion" method="post">
+    <input type="hidden" name="cancionId" value="@Model.CancionId" />
+
+    <label for="playlistSelect">Selecciona la playlist:</label>
+    <select id="playlistSelect" name="playlistId" required>
+        <option value="">-- Elige una playlist --</option>
+        @foreach (var playlist in Model.Playlists)
+        {
+            <option value="@playlist.PlaylistID">@playlist.Nombre</option>
+        }
+    </select>
+
+    <button type="submit">Agregar</button>
+</form>

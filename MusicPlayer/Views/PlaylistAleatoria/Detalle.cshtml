@@ -1,0 +1,104 @@
+﻿@model MusicPlayer.ViewM.PlaylistAleatoriaVM
+
+<h2 class="titulo-playlist">@Model.Nombre</h2>
+<p class="fecha-creacion">Creada: @Model.FechaCreacion.ToShortDateString()</p>
+<style>
+    /* Tipografía y colores suaves */
+    .titulo-playlist {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #a87e00;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        margin-bottom: 5px;
+        user-select: none;
+    }
+
+    .fecha-creacion {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #7a5b00;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    /* Lista con espacio y suavidad */
+    .lista-canciones {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        color: #4a4a4a;
+        max-width: 600px;
+    }
+
+    .item-cancion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 12px;
+        border-bottom: 1px solid #e0d498;
+        transition: background-color 0.25s ease;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        background-color: #fff9e1;
+        box-shadow: 0 2px 6px rgba(168, 126, 0, 0.15);
+    }
+
+        .item-cancion:hover {
+            background-color: #f6edb2;
+            box-shadow: 0 4px 12px rgba(168, 126, 0, 0.25);
+        }
+
+    .info-cancion {
+        flex: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-right: 15px;
+        user-select: text;
+    }
+
+    .guion {
+        margin: 0 5px;
+        color: #b79800;
+    }
+
+    .form-agregar {
+        flex-shrink: 0;
+    }
+
+    .btn-agregar {
+        background-color: #d4af37;
+        border: none;
+        color: #3a2e00;
+        padding: 6px 12px;
+        font-size: 0.85rem;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        box-shadow: 0 2px 8px rgba(212, 175, 55, 0.4);
+        user-select: none;
+    }
+
+        .btn-agregar:hover {
+            background-color: #b89123;
+            color: #1f1600;
+            box-shadow: 0 4px 14px rgba(184, 145, 35, 0.6);
+        }
+</style>
+<ul class="lista-canciones">
+    @foreach (var cancion in Model.Canciones)
+    {
+        <li class="item-cancion">
+            <span class="info-cancion">@cancion.Titulo <span class="guion">-</span> @cancion.Artista</span>
+
+            <form asp-controller="Playlist" asp-action="SeleccionarPlaylist" method="post" class="form-agregar">
+                <input type="hidden" name="cancionId" value="@cancion.CancionID" />
+                <button type="submit" class="btn-agregar">+ Agregar a playlist</button>
+            </form>
+        </li>
+    }
+</ul>
+
+

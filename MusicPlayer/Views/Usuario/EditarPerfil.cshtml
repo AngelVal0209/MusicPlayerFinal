@@ -1,0 +1,59 @@
+﻿@model MusicPlayer.ViewM.EditarPerfilUVM
+
+@{
+    ViewData["Title"] = "Editar Perfil";
+}
+
+<div class="container d-flex justify-content-center">
+    <div class="col-md-8 shadow-sm p-5 rounded" style="background-color: #fff; border: 1px solid #e0e0e0;">
+        <h2 class="mb-4 text-center text-dark border-bottom pb-2" style="border-color: #ff7043;">Editar Perfil</h2>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success text-center shadow-sm rounded">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (ViewData["Mensaje"] != null)
+        {
+            <div class="alert alert-warning text-center shadow-sm rounded" style="background-color: #fff8e1; border: 1px solid #ffc107;">
+                @ViewData["Mensaje"]
+            </div>
+        }
+
+        <form asp-action="EditarPerfil" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="NombreUsuario" class="form-label fw-semibold">Nombre de Usuario</label>
+                <input asp-for="NombreUsuario" class="form-control" placeholder="Ingresa tu nombre de usuario" />
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="CorreoElectronico" class="form-label fw-semibold">Correo Electrónico</label>
+                <input asp-for="CorreoElectronico" type="email" class="form-control" placeholder="ejemplo@correo.com" />
+            </div>
+
+            <hr class="mb-4" style="border-top: 2px dashed #ff7043;" />
+            <p class="fw-bold text-dark">Cambio de Contraseña <small class="text-muted">(opcional)</small></p>
+
+            <div class="form-group mb-3">
+                <label asp-for="ViejaContraseña" class="form-label">Contraseña Actual</label>
+                <input asp-for="ViejaContraseña" type="password" class="form-control" placeholder="••••••••" />
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="NuevaContrasena" class="form-label">Nueva Contraseña</label>
+                <input asp-for="NuevaContrasena" type="password" class="form-control" placeholder="••••••••" />
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn" style="background-color: #ff7043; color: white;">Guardar Cambios</button>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary ms-2">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

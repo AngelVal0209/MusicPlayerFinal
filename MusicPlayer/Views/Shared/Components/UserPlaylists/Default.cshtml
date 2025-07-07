@@ -1,0 +1,22 @@
+﻿@model List<MusicPlayer.Models.Playlist>
+
+@if (Model == null || !Model.Any())
+{
+    <p class="text-center text-muted mt-3">No tienes playlists aún.</p>
+}
+else
+{
+    <div class="d-flex justify-content-center mt-3">
+        <ul class="list-group w-75" style="max-width: 400px;">
+            @foreach (var playlist in Model)
+            {
+                <li class="list-group-item mb-2 shadow-sm rounded border border-warning-subtle bg-light">
+                    <a asp-controller="Playlist" asp-action="VerPlaylist" asp-route-id="@playlist.PlaylistID"
+                       class="text-decoration-none text-dark fw-semibold d-block text-center">
+                        @playlist.Nombre
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+}

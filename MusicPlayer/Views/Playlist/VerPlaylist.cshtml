@@ -1,0 +1,134 @@
+﻿@model MusicPlayer.Models.Playlist
+
+@{
+    ViewData["Title"] = $"Playlist: {Model.Nombre}";
+}
+
+<style>
+    h2 {
+        color: #a36c00;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        text-shadow: 1px 1px 3px rgba(163, 108, 0, 0.4);
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #7a5600;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    a.btn {
+        border-radius: 30px;
+        font-weight: 600;
+        padding: 10px 20px;
+        margin-right: 10px;
+        box-shadow: 0 4px 8px rgba(250, 196, 76, 0.4);
+        transition: background-color 0.3s ease;
+        user-select: none;
+    }
+
+    a.btn-primary {
+        background-color: #fac44c;
+        color: #4a4a4a;
+    }
+
+        a.btn-primary:hover {
+            background-color: #e2b335;
+            color: #3a3a3a;
+        }
+
+    a.btn-secondary {
+        background-color: #a36c00;
+        color: white;
+    }
+
+        a.btn-secondary:hover {
+            background-color: #7a5600;
+        }
+
+    table.table-hover {
+        background: #fff5cc;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 6px 15px rgba(250, 196, 76, 0.3);
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    table thead {
+        background-color: #fac44c;
+        color: #4a4a4a;
+    }
+
+    table th, table td {
+        padding: 12px 15px;
+        text-align: left;
+    }
+
+    table tbody tr:hover {
+        background-color: #f2db7a;
+    }
+
+    button.btn-danger {
+        background-color: #d9534f;
+        border: none;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        user-select: none;
+    }
+
+        button.btn-danger:hover {
+            background-color: #b52b27;
+        }
+</style>
+
+<h2>@Model.Nombre</h2>
+<p>Creada el: @Model.FechaCreacion.ToShortDateString()</p>
+
+<a asp-action="AgregarCancion" asp-route-playlistId="@Model.PlaylistID" class="btn btn-primary mb-3">Agregar Canción</a>
+<a asp-action="MisPlaylists" class="btn btn-secondary mb-3">Volver a Mis Playlists</a>
+
+@if (Model.PlaylistCanciones != null && Model.PlaylistCanciones.Any())
+{
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Artista</th>
+                <th>Duración (segundos)</th>
+                <th>Fecha Agregado</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pc in Model.PlaylistCanciones.OrderByDescending(pc => pc.FechaAgregado))
+            {
+                <tr>
+                    <td>@pc.Cancion.Titulo</td>
+                    <td>@pc.Cancion.Artista</td>
+                    <td>@(pc.Cancion.DuracionSegundos ?? 0)</td>
+                    <td>@pc.FechaAgregado.ToShortDateString()</td>
+                    <td>
+                        <form asp-action="QuitarCancion" method="post" style="display:inline;">
+                            <input type="hidden" name="playlistId" value="@Model.PlaylistID" />
+                            <input type="hidden" name="cancionId" value="@pc.CancionID" />
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('¿Seguro que quieres quitar esta canción?');">Quitar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay canciones en esta playlist aún.</p>
+}
+    
